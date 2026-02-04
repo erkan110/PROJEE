@@ -545,4 +545,38 @@ body
     margin: 8px;
     float: left;
 }
+/*TOPLULUKUKUKUUKUKUKUKUKUKUKUUK HAK HUKUK ADALET
 
+İNDEXTEKİ 3 KUTUYA SHADOW VERİLECEK + BORDERİ 	border: 3px solid #edc00d; OLACAK!!!!!!
+*/
+.okuyeri
+{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 12%;
+}
+.oku
+{
+    width: 40%;
+    height: 350px;
+    margin: 30px 10px;
+    background-color: #0052cd;
+    color: #F0F6FF;
+    border: 2px solid #0059ff;
+    box-shadow: 0 0 15px #000000;
+    text-shadow: 0 0 15px #000000;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 5px;
+    transition: 1s;
+    transform-style: preserve-3d;
+}
+.oku:hover
+{
+    background-color:#FACC15; 
+	border: 3px solid #edc00d;
+    transition: 1s;
+    transform: translateY(-10px) rotateX(5deg) rotateY(5deg) scale(1.02);
+}
