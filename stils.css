@@ -663,3 +663,73 @@ body
     transition: 1s;
     transform: translateY(-10px) rotateX(5deg) rotateY(5deg) scale(1.02);
 }
+
+/*BİLGİLERİMBİLGİLERİMAAAAAA TEK HALK TEK FÜHRER TEK DEVLET
+
+NÜKLEER ATIK ARDA ÇAMUR TENLİ 7.5 SAAT MACFİT 7.5 SAAT BRAWL STARS 3 SAAT PATLATMA 1 SAAT UYKU 1 SAAT İNSAN ZORBALAMA
+*/
+
+.BilgiKarti
+{
+    background-color: black;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    max-width: 3000px;
+    height: 515px;
+}
+
+.tablooo
+{
+    background-color: #f0ecec;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 800px;
+    margin-left:900px;
+    border-radius: 20px;
+    box-shadow: 5px 2px 2px rgb(84, 73, 11);
+}
+
+.tablooo td
+{
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.tabloooFoto
+{
+    border-radius: 20px;
+}
+
+.tablooo button
+{
+    width: 100px;
+    height: 50px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.8s;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-left: 150px;
+    border: bottom 1px solid black;
+}
+
+.profilIsmi
+{
+    font-size: 22px;
+}
+
+.YayinladiğiHikayeler
+{
+    max-width: 3000px;
+    height: 1000px;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
