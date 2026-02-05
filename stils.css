@@ -114,6 +114,7 @@ body
     top: 30px;
     transition: 1s;
     transform-style: preserve-3d;
+    box-shadow: 0 0 15px black;    
 }
 .orta
 {
@@ -125,11 +126,12 @@ body
     border-radius: 20px;
     transition: 1s;
     transform-style: preserve-3d;
+    box-shadow: 0 0 15px black;
 }
 .sol:hover,.orta:hover,.sag:hover
 {
     background-color:#FACC15; 
-	border: 3px solid #ddff00;
+    border: 3px solid #edc00d;
     transition: 1s;
     transform: translateY(-10px) rotateX(5deg) rotateY(5deg) scale(1.02);
 }
@@ -316,6 +318,7 @@ body
     justify-content: center;
     flex-direction: column;
     align-items: center;
+
 }
 .kayitolma,.girisyapma
 {
@@ -324,16 +327,17 @@ body
     padding: 20px;
     margin: 20px;
     width: 50%;
-    height: 600px;
+    height: 700px;
     box-shadow: 0 0 15px #000000;
     border-radius: 20px;
+    position: relative;
 }
 .formgiris
 {
     text-align: center;
     color: #F0F6FF;
     text-shadow: 0 0 15px #000000;
-    margin: 70px 20px 20px 20px;
+    margin: 40px;
     font-size: 50px;
 }
 .form
@@ -427,7 +431,89 @@ body
     font-weight: bolder;
     color: #F0F6FF;
     text-align: center;
+}.veya
+{
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    margin: 23px;
 }
+.baglanti
+{
+    margin: 10px 20px;
+    text-align: center;
+}
+.baglanti i
+{
+    font-size: 35px;
+    background-color: #000000;
+    border-radius: 10px;
+    color: #F0F6FF;
+    padding: 15px;
+    margin: 0px 20px;
+    cursor: pointer;
+    transition: 1s;
+}
+.baglanti i:hover
+{
+    background-color: #F0F6FF;
+    color: #000000;
+}
+.sifirla
+{
+    text-align: right;
+    font-size: 20px;
+    color: #000000;
+    font-weight: bold;
+    margin: 25px 0px -10px 0px;
+}
+.sifirla a
+{
+    text-decoration: none;
+    color: #F0F6FF;
+}
+.sifirla a:hover
+{
+    text-decoration: underline;
+    color: #000000;
+}
+.linkler
+{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    color: #000000;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.linkler button
+{
+    background: transparent;
+    border: 0;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+}
+.linkler button:hover
+{
+    background: transparent;
+    border: 0;
+    color: #000000;
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: bold;
+}
+.kapat{
+    background:transparent;
+    border: 0;
+    cursor: pointer;
+    width: 60px;
+    height: 50px;
+    position: absolute;
+    top: 40px;
+    right: 30px;
+}
+
 /* 
 
 
@@ -524,10 +610,7 @@ body
 
 .buttonRow {
     display: flex;            
-    gap: 20px;  
-    margin-left: -1700px;      
-    bottom: -20px;
-    position: relative;      
+    gap: 20px;
 }
 
 .buttonRowTwo

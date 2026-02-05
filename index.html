@@ -71,6 +71,7 @@
     <hr class="anaSayfaHr">
     <div class="kacaklogin">
     <div class="kayitolma">
+    <img src="FOTOLAR/exit.png" class="kapat" id="kapat">
     <form action="" class="form" id="form1">
     <h2 class="formgiris">KAYIT OL</h2>
     <div class="selam">
@@ -79,22 +80,36 @@
         </div>
         <input type="text" placeholder="Kullanıcı Adınız..." class="kayitt" required>
     </div>
+
+        <div class="selam">
+        <div class="ikon">
+            <i class="fa-solid fa-envelope"></i>
+        </div>
+        <input type="email" placeholder="E-Mail Adresiniz..." class="kayitt" required>
+    </div>
+    
     <div class="selam">
         <div class="ikon">
             <i class="fa-solid fa-lock"></i>
         </div>
         <input type="password" placeholder="Şifreniz..." class="kayitt" required>
     </div>
-    <div class="selam">
-        <div class="ikon">
-            <i class="fa-solid fa-envelope"></i>
-        </div>
-        <input type="email" placeholder="E-Mail Adresiniz..." class="kayitt" required>
-    </div>
     <button id="kayitt">KAYIT OL</button>
 </form>
-    </div>
+<p class="veya">
+    ----------VEYA----------
+</p>
+<div class="baglanti">
+    <i class="fab fa-google"></i>
+    <i class="fab fa-facebook"></i>
+</div>
+<div class="linkler">
+    <p>Bir Hesabım Var.
+    <button id="linksKayit">Giriş Yap</button></p>
+</div>
+</div>
 <div class="girisyapma">
+    <img src="FOTOLAR/exit.png" class="kapat" id="kapat">
     <form action="" class="form" id="form2">
         <h2 class="formgiris">GİRİŞ YAP</h2>
         <div class="selam">
@@ -109,8 +124,21 @@
             </div>
             <input type="password" placeholder="Şifreniz..." class="kayitt" required>
         </div>
+        <p class="sifirla">
+            <a href="#">Şifremi Unuttum</a>
+        </p>
         <button id="giriss">GİRİŞ YAP</button>
     </form>
+    <p class="veya">
+    ----------VEYA----------
+</p>
+<div class="baglanti">
+    <i class="fab fa-google"></i>
+    <i class="fab fa-facebook"></i>
+</div>
+<div class="linkler">
+    <p>Bir Hesabım Yok.
+    <button id="linksGiris">Kayıt Ol</button></p>
 </div>
 </div>
 <script src="proje.js"></script>
