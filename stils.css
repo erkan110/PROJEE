@@ -687,7 +687,7 @@ NÜKLEER ATIK ARDA ÇAMUR TENLİ 7.5 SAAT MACFİT 7.5 SAAT BRAWL STARS 3 SAAT PA
     align-items: center;
     text-align: center;
     width: 800px;
-    margin-left:900px;
+    margin: 40px auto;
     border-radius: 20px;
     box-shadow: 5px 2px 2px rgb(84, 73, 11);
 }
