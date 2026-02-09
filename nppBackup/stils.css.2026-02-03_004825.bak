@@ -311,7 +311,7 @@ body
     text-shadow: 0 0 15px #F0F6FF;
     transition: 1s;
 }
-.login2
+.login
 {
     width: 100%;
     height: 300px;
@@ -321,7 +321,7 @@ body
     justify-content: center;
     align-items: center;
 }
-.login2 p
+.login p
 {
     font-size: 27px;
     color: #F0F6FF;
@@ -332,11 +332,11 @@ body
     line-height: 35px;
     text-shadow: 0 0 15px black;
 }
-.loginbuttonlar2
+.loginbuttonlar
 {
     display: flex;
-	justify-content:center;
-	margin:20px;
+    flex-direction: column;
+    margin: 20px 80px 20px 20px;
     transition: 1s;
 }
 #kayit

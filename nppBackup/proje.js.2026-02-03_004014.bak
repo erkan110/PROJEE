@@ -5,9 +5,9 @@ function kayitol() {
 
     if (localStorage.getItem("kayitemail") === email) {
         alert("BU KULLANICI MEVCUTTUR LÜTFEN GİRİŞ YAPIN.");
-		document.getElementsByClassName("kayitolma")[0].style.display = "none";
-		document.getElementsByClassName("girisyapma")[0].style.display = "block";
-		return;
+        return;
+		document.getElementsByClassName("kayitolma").style.display = "none";
+		document.getElementsByClassName("girisyapma").style.display = "block"
     }
     localStorage.setItem("kayitad", add);
     localStorage.setItem("kayitemail", email);

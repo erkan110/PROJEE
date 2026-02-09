@@ -5,9 +5,7 @@ function kayitol() {
 
     if (localStorage.getItem("kayitemail") === email) {
         alert("BU KULLANICI MEVCUTTUR LÜTFEN GİRİŞ YAPIN.");
-		document.getElementsByClassName("kayitolma")[0].style.display = "none";
-		document.getElementsByClassName("girisyapma")[0].style.display = "block";
-		return;
+        return;
     }
     localStorage.setItem("kayitad", add);
     localStorage.setItem("kayitemail", email);
@@ -41,17 +39,3 @@ function girisbtn()
     document.getElementsByClassName("kayitolma")[0].style.display = "none";
 }
 function kapat()
-{
-	document.getElementsByClassName("girisyapma")[0].style.display = "none";
-    document.getElementsByClassName("kayitolma")[0].style.display = "none";
-}
-function kayittext()
-{
-    document.getElementsByClassName("girisyapma")[0].style.display = "block";
-    document.getElementsByClassName("kayitolma")[0].style.display = "none";
-}
-function giristext()
-{
-	document.getElementsByClassName("kayitolma")[0].style.display = "block";
-	document.getElementsByClassName("girisyapma")[0].style.display = "none";
-}

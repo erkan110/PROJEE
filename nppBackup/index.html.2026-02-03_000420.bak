@@ -79,7 +79,7 @@
         </div>
         <input type="password" placeholder="Şifreniz..." class="kayitt" id="kayitsifre" required>
     </div>
-    <button id="kayitt" onclick="kayitol()">KAYIT OL</button>
+    <button id="kayitt" onclick="kayittext()">KAYIT OL</button>
 </form>
 <p class="veya">
     ----------VEYA----------
@@ -90,7 +90,7 @@
 </div>
 <div class="linkler">
     <p>Bir Hesabım Var.
-    <button id="linksKayit" onclick="kayittext()">Giriş Yap</button></p>
+    <button id="linksKayit">Giriş Yap</button></p>
 </div>
 </div>
 <div class="girisyapma">
@@ -112,7 +112,7 @@
         <p class="sifirla">
             <a href="#">Şifremi Unuttum</a>
         </p>
-        <button id="giriss" onclick="girisyap()">GİRİŞ YAP</button>
+        <button id="giriss" onclick="giristext()">GİRİŞ YAP</button>
     </form>
     <p class="veya">
     ----------VEYA----------
@@ -123,7 +123,7 @@
 </div>
 <div class="linkler">
     <p>Bir Hesabım Yok.
-    <button id="linksGiris" onclick="giristext()">Kayıt Ol</button></p>
+    <button id="linksGiris">Kayıt Ol</button></p>
 </div>
 </div>
     <hr class="anaSayfaHr">

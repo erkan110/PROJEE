@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Sende Hikayeni Oluştur Ve En İyilerin Arasına Girmeye Hak Kazan">
     <meta name="keywords" content="Hikaye,Yazmak,Edebiyat,Yazı,Eğlence,En iyi">
-    <title>BİLGİLERİM</title>
+    <title>HİKAYENİ YAZ</title>
     <link rel="stylesheet" href="stils.css">
 </head>
 <body>
@@ -30,57 +30,14 @@
 </div>
 <hr class="anaSayfaHr">
 <div class="anayer">
-<div class="BilgiKarti">
-    
-    <table class="tablooo">
-        <tr>
-            <td>
-                <img src="FOTOLAR/ppp.jpg" alt="Profil Fotoğrafı" class="tabloooFoto">
-            </td>
-
-             <td colspan="3" class="">
-                <p>!!!HESABIN AÇIKLAMASI!!!</p>
-
-
-                <h3>KAZANDIĞI MADALYALAR</h3>
-            </td>
-        </tr>
-
-        <tr>
-            <td>
-                <h3 class="profilIsmi"></h3>
-            </td> 
-
-            <td>
-                <h3>Takipçiler</h3>
-            </td>
-
-            <td>
-                <h3>Takip Ettikleri</h3>
-            </td>
-        </tr>
-
-        <tr>
-            <td colspan="1">
-                <h3><button>Profili Düzenle</button></h3>
-            </td>
-
-            <td colspan="2">
-                <h3>Yayınladığı Hikayeleri :</h3>
-            </td>
-        </tr>
-    </table>
-</div>
-
-<div class="YayinladiğiHikayeler">
-    <div class="okuyeri">
-        <div class="oku"></div>
-        <div class="oku"></div>
+    <div class="login2">
+        <p>Hikâyeni paylaşmak ister misin?
+        Yazı yazmak ve yayınlamak için ücretsiz kayıt ol ya da giriş yap. Hikâyeni paylaştıktan sonra
+        diğer kullanıcıların beğenilerini toplayabilir ve haftanın en iyi hikâyeleri arasına girme şansı yakalayabilirsin.</p>
+    <div class="loginbuttonlar">
+        <button id="kayit2" onclick="kayitbtn()">KAYIT OL</button>
+        <button id="giris2" onclick="girisbtn()">GİRİŞ YAP</button>
     </div>
-
-    <div class="okuyeri">
-        <div class="oku"></div>
-        <div class="oku"></div>
     </div>
 </div>
 </div>

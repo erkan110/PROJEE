@@ -90,11 +90,11 @@
 </div>
 <div class="linkler">
     <p>Bir Hesabım Var.
-    <button id="linksKayit" onclick="kayittext()">Giriş Yap</button></p>
+    <button id="linksKayit">Giriş Yap</button></p>
 </div>
 </div>
 <div class="girisyapma">
-    <img src="FOTOLAR/exit.png" class="kapat" id="kapat1" onclick = "kapat()">
+    <img src="FOTOLAR/exit.png" class="kapat1" id="kapat1" >
     <form action="" class="form" id="form2">
         <h2 class="formgiris">GİRİŞ YAP</h2>
         <div class="selam">
@@ -123,7 +123,7 @@
 </div>
 <div class="linkler">
     <p>Bir Hesabım Yok.
-    <button id="linksGiris" onclick="giristext()">Kayıt Ol</button></p>
+    <button id="linksGiris">Kayıt Ol</button></p>
 </div>
 </div>
     <hr class="anaSayfaHr">
