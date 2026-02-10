@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="tr">
+
 <head>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="icon" href="FOTOLAR/icon.png" type="image/x-icon">
@@ -10,38 +11,74 @@
     <title>HİKAYENİ YAZ</title>
     <link rel="stylesheet" href="stils.css">
 </head>
-<body>
-<div class="menu">
-    <a href="index.html"><img src="FOTOLAR/logo.png" class="resim"></a>
 
-    <ul class="menulink">
-        <li><a href="index.html">ANA SAYFA</a></li>
-        <li><a href="topluluk.html">TOPLULUK</a></li>
-        <li><a href="login.html">GİRİŞ YAP/KAYIT OL</a></li>
-        <li><a href="hakkimizda.html">HAKKIMIZDA</a></li>
-        <li class="hesabim">
-        <a href="#">HESABIM</a>
-        <ul class="hesabim-menu">
-        <li><a href="bilgilerim.html">BİLGİLERİM</a></li>
-        <li><a href="cikis.php">ÇIKIŞ YAP</a></li>
+<body>
+    <div class="menu">
+        <a href="index.html"><img src="FOTOLAR/logo.png" class="resim"></a>
+
+        <ul class="menulink">
+            <li><a href="index.html">ANA SAYFA</a></li>
+            <li><a href="topluluk.html">TOPLULUK</a></li>
+            <li><a href="login.html">GİRİŞ YAP/KAYIT OL</a></li>
+            <li><a href="hakkimizda.html">HAKKIMIZDA</a></li>
+            <li class="hesabim">
+                <a href="#">HESABIM</a>
+                <ul class="hesabim-menu">
+                    <li><a href="bilgilerim.html">BİLGİLERİM</a></li>
+                    <li><a href="cikis.php">ÇIKIŞ YAP</a></li>
+                </ul>
+            </li>
         </ul>
-        </li>
-    </ul>
-</div>
-<hr class="anaSayfaHr">
-<div class="anayer">
-<div class="FormHakkimizda">
-    <h1>BİZ KİMİZ</h1>
-    <hr>
-    <p>Dünyanın dört bir yanından okuyucuları ve yazarları buluşturup herkese sosyal bir alan sağlayıp kendinizi 
-        geliştirmenize olanak tanıyoruz. <br>
-        Sizden gelen geribildirimleri okuyor, değerlendiriyor ve sitemizi en iyi şekilde iyileştirmeye çalıştırıyoruz. <br>
-        Sitemiz hakkında isteklerinizi, eleştirilerinizi, sorunlarınızı aşağıda bize yazarak iletebilirisiniz:
-		</p>
-		
-		
-</div>
-</div>
-<script src="proje.js"></script>
+    </div>
+    <hr class="anaSayfaHr">
+    <div class="anayer">
+        <div class="FormHakkimizda">
+            <h1>BİZ KİMİZ</h1>
+            <hr>
+            <p>Dünyanın dört bir yanından okuyucuları ve yazarları buluşturup herkese sosyal bir alan sağlayıp kendinizi
+                geliştirmenize olanak tanıyoruz.
+                Sizden gelen geribildirimleri okuyor, değerlendiriyor ve sitemizi en iyi şekilde iyileştirmeye
+                çalıştırıyoruz.
+                Sitemiz hakkında isteklerinizi, eleştirilerinizi, sorunlarınızı aşağıda bize yazarak iletebilirisiniz:
+            </p>
+            </div>
+            <hr class="anaSayfaHr">
+            <div class="iletisimm">
+                <div class="iletisimform">
+                    <form action="" class="form3" id="form3">
+
+                        <div class="selam2">
+                           <p>ADI:</p> <input type="text" placeholder="Adınız" class="iletisim" id="iletisimad" required>
+                           <p>SOYADI:</p>   <input type="text" placeholder="Soyadınız" class="iletisim" id="iletisimsoyad" required>
+                        </div>
+
+                        <div class="selam2">
+                           <p>E-MAİL:</p>   <input type="email" placeholder="E-Mail Adresiniz" class="iletisim" id="iletisimemail" required>
+                           <p>TELEFON:</p>   <input type="tel" placeholder="Telefon Numaranız" class="iletisim" id="iletisimtel" required>
+                        </div>
+
+                        <div class="selam2">
+                             <p>KONU:</p> <input type="text" placeholder="Konu" class="iletisim" id="iletisimkonu" required>
+                        </div>
+
+                        <div class="selam2">
+                             <p>MESAJ:</p> <textarea type="text" placeholder="Mesajınız" class="iletisim" id="iletisimtext" required style="resize: none;"></textarea>
+                        </div>
+
+                        <button id="iletisimbtn" onclick="iletisimbtn()">GÖNDER</button>
+                    </form>
+                </div>
+                <div class="hakkimizdaback" style="display: none;">
+                    <h1>İLETİŞİME GEÇİN</h1>
+                    <hr>
+                    <h3>E-MAİL ADRESİMİZ</h3>
+                    <p>ardaandan@gmail.com</p>
+                    <hr>
+                    <p>İstek,Eleştiri ve Sorunlarınızı soldaki formdan iletmeyi unutmayınız.</p>
+                </div>
+            </div>
+        </div>
+    <script src="proje.js"></script>
 </body>
+
 </html>
