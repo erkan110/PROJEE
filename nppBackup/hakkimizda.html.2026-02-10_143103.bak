@@ -38,8 +38,57 @@
         Sizden gelen geribildirimleri okuyor, değerlendiriyor ve sitemizi en iyi şekilde iyileştirmeye çalıştırıyoruz. <br>
         Sitemiz hakkında isteklerinizi, eleştirilerinizi, sorunlarınızı aşağıda bize yazarak iletebilirisiniz:
 		</p>
-		
-		
+
+        <form>
+            <table class="FormTabloo">
+                <tr>
+                    <td>
+                        Adınız :
+                    </td>
+
+                    <td>
+                        <input type="text" required placeholder="Adınızı giriniz">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        E-mail:
+                    </td>
+
+                    <td>
+                        <input type="email" required placeholder="E-mail'inizi giriniz">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        Bize Yazın:
+                    </td>
+                    <td>
+                        <textarea required placeholder="İsteklerinizi, önerilerinizi ve şikayetlerinizi yazabilirsiniz..."></textarea>
+                    </td>
+                 </tr>
+
+                <tr>
+                    <td colspan="2">
+                        <button type="submit" class="buttonForm">GÖNDER</button>
+                    </td>
+                </tr>
+                </tr>
+            </table>
+        </form>
+
+        <div class="solYaziDiv">
+            <h1 class="sagsolYaziForm">
+                HİKAYENİ YAZ.
+                YAYINLA.
+                HER HAFTA YENİ ÇIKAN KONULARLA KALEMİNİ KONUŞTUR
+            </h1>
+        </div>
+
+
+    </p>
 </div>
 </div>
 <script src="proje.js"></script>

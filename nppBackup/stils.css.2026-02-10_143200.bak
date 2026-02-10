@@ -863,10 +863,8 @@ NÜKLEER ATIK ARDA ÇAMUR TENLİ 7.5 SAAT MACFİT 7.5 SAAT BRAWL STARS 3 SAAT PA
 }
 .FormHakkimizda h1
 {
-	font-size: 45px;
 	text-align:center;
 	color:#FACC15;
-	 text-shadow: 0 0 15px black;
 }
 .FormHakkimizda p
 {
@@ -874,7 +872,7 @@ NÜKLEER ATIK ARDA ÇAMUR TENLİ 7.5 SAAT MACFİT 7.5 SAAT BRAWL STARS 3 SAAT PA
 	display:flex;
     color: #F0F6FF;
     text-align: center;
-	margin-top:-30px;
+	margin-top:-10px;
     padding: 10px;
     font-weight: bold;
     line-height: 35px;

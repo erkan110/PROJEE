@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="icon" href="FOTOLAR/icon.png" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sende Hikayeni Oluştur Ve En İyilerin Arasına Girmeye Hak Kazan">
+    <meta name="keywords" content="Hikaye,Yazmak,Edebiyat,Yazı,Eğlence,En iyi">
+    <title>HİKAYENİ YAZ</title>
+    <link rel="stylesheet" href="stils.css">
+</head>
+<body>
+<div class="menu">
+    <a href="index.html"><img src="FOTOLAR/logo.png" class="resim"></a>
+
+    <ul class="menulink">
+        <li><a href="index.html">ANA SAYFA</a></li>
+        <li><a href="topluluk.html">TOPLULUK</a></li>
+        <li><a href="login.html">GİRİŞ YAP/KAYIT OL</a></li>
+        <li><a href="hakkimizda.html">HAKKIMIZDA</a></li>
+        <li class="hesabim">
+        <a href="#">HESABIM</a>
+        <ul class="hesabim-menu">
+        <li><a href="bilgilerim.html">BİLGİLERİM</a></li>
+        <li><a href="cikis.php">ÇIKIŞ YAP</a></li>
+        </ul>
+        </li>
+    </ul>
+</div>
+<hr class="anaSayfaHr">
+<div class="anayer">
+<div class="FormHakkimizda">
+    <h1>BİZ KİMİZ</h1>
+    <hr>
+    <p>
+		</p>
+
+        <form>
+            <table class="FormTabloo">
+                <tr>
+                    <td>
+                        Adınız :
+                    </td>
+
+                    <td>
+                        <input type="text" required placeholder="Adınızı giriniz">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        E-mail:
+                    </td>
+
+                    <td>
+                        <input type="email" required placeholder="E-mail'inizi giriniz">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        Bize Yazın:
+                    </td>
+                    <td>
+                        <textarea required placeholder="İsteklerinizi, önerilerinizi ve şikayetlerinizi yazabilirsiniz..."></textarea>
+                    </td>
+                 </tr>
+
+                <tr>
+                    <td colspan="2">
+                        <button type="submit" class="buttonForm">GÖNDER</button>
+                    </td>
+                </tr>
+                </tr>
+            </table>
+        </form>
+
+        <div class="solYaziDiv">
+            <h1 class="sagsolYaziForm">
+                HİKAYENİ YAZ.
+                YAYINLA.
+                HER HAFTA YENİ ÇIKAN KONULARLA KALEMİNİ KONUŞTUR
+            </h1>
+        </div>
+
+
+    </p>
+</div>
+</div>
+<script src="proje.js"></script>
+</body>
+</html>
